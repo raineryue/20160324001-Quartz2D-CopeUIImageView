@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "RYImageView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) RYImageView *imageView;
 
 @end
 
@@ -16,7 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.imageView = [[RYImageView alloc] initWithFrame:CGRectMake(50, 50, 200, 200)];
+    
+    self.imageView.image = [UIImage imageNamed:@"汽水"];
+    
+    [self.view addSubview:self.imageView];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    self.imageView.image = [UIImage imageNamed:@"CTO"];
 }
 
 - (void)didReceiveMemoryWarning {

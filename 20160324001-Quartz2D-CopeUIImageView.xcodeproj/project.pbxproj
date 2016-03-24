@@ -15,6 +15,7 @@
 		D58C20E61CA42AA200858C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58C20E41CA42AA200858C18 /* LaunchScreen.storyboard */; };
 		D58C20F11CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C20F01CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewTests.m */; };
 		D58C20FC1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C20FB1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m */; };
+		D58C210B1CA42B9F00858C18 /* RYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C210A1CA42B9F00858C18 /* RYImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D58C20F71CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160324001-Quartz2D-CopeUIImageViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58C20FB1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160324001_Quartz2D_CopeUIImageViewUITests.m; sourceTree = "<group>"; };
 		D58C20FD1CA42AA200858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58C21091CA42B9F00858C18 /* RYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYImageView.h; sourceTree = "<group>"; };
+		D58C210A1CA42B9F00858C18 /* RYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D58C20DA1CA42AA200858C18 /* AppDelegate.m */,
 				D58C20DC1CA42AA200858C18 /* ViewController.h */,
 				D58C20DD1CA42AA200858C18 /* ViewController.m */,
+				D58C21091CA42B9F00858C18 /* RYImageView.h */,
+				D58C210A1CA42B9F00858C18 /* RYImageView.m */,
 				D58C20DF1CA42AA200858C18 /* Main.storyboard */,
 				D58C20E21CA42AA200858C18 /* Assets.xcassets */,
 				D58C20E41CA42AA200858C18 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D58C20DE1CA42AA200858C18 /* ViewController.m in Sources */,
+				D58C210B1CA42B9F00858C18 /* RYImageView.m in Sources */,
 				D58C20DB1CA42AA200858C18 /* AppDelegate.m in Sources */,
 				D58C20D81CA42AA200858C18 /* main.m in Sources */,
 			);
