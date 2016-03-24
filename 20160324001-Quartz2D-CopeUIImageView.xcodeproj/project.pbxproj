@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D58C20D81CA42AA200858C18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C20D71CA42AA200858C18 /* main.m */; };
+		D58C20DB1CA42AA200858C18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C20DA1CA42AA200858C18 /* AppDelegate.m */; };
+		D58C20DE1CA42AA200858C18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C20DD1CA42AA200858C18 /* ViewController.m */; };
+		D58C20E11CA42AA200858C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58C20DF1CA42AA200858C18 /* Main.storyboard */; };
+		D58C20E31CA42AA200858C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58C20E21CA42AA200858C18 /* Assets.xcassets */; };
+		D58C20E61CA42AA200858C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58C20E41CA42AA200858C18 /* LaunchScreen.storyboard */; };
+		D58C20F11CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C20F01CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewTests.m */; };
+		D58C20FC1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D58C20FB1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D58C20ED1CA42AA200858C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D58C20CB1CA42AA200858C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58C20D21CA42AA200858C18;
+			remoteInfo = "20160324001-Quartz2D-CopeUIImageView";
+		};
+		D58C20F81CA42AA200858C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D58C20CB1CA42AA200858C18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58C20D21CA42AA200858C18;
+			remoteInfo = "20160324001-Quartz2D-CopeUIImageView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D58C20D31CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160324001-Quartz2D-CopeUIImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58C20D71CA42AA200858C18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D58C20D91CA42AA200858C18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D58C20DA1CA42AA200858C18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D58C20DC1CA42AA200858C18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D58C20DD1CA42AA200858C18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D58C20E01CA42AA200858C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58C20E21CA42AA200858C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58C20E51CA42AA200858C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58C20E71CA42AA200858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58C20EC1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160324001-Quartz2D-CopeUIImageViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58C20F01CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160324001_Quartz2D_CopeUIImageViewTests.m; sourceTree = "<group>"; };
+		D58C20F21CA42AA200858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58C20F71CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160324001-Quartz2D-CopeUIImageViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58C20FB1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160324001_Quartz2D_CopeUIImageViewUITests.m; sourceTree = "<group>"; };
+		D58C20FD1CA42AA200858C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D58C20D01CA42AA200858C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C20E91CA42AA200858C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C20F41CA42AA200858C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D58C20CA1CA42AA200858C18 = {
+			isa = PBXGroup;
+			children = (
+				D58C20D51CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView */,
+				D58C20EF1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewTests */,
+				D58C20FA1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests */,
+				D58C20D41CA42AA200858C18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D58C20D41CA42AA200858C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58C20D31CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView.app */,
+				D58C20EC1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewTests.xctest */,
+				D58C20F71CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58C20D51CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				D58C20D91CA42AA200858C18 /* AppDelegate.h */,
+				D58C20DA1CA42AA200858C18 /* AppDelegate.m */,
+				D58C20DC1CA42AA200858C18 /* ViewController.h */,
+				D58C20DD1CA42AA200858C18 /* ViewController.m */,
+				D58C20DF1CA42AA200858C18 /* Main.storyboard */,
+				D58C20E21CA42AA200858C18 /* Assets.xcassets */,
+				D58C20E41CA42AA200858C18 /* LaunchScreen.storyboard */,
+				D58C20E71CA42AA200858C18 /* Info.plist */,
+				D58C20D61CA42AA200858C18 /* Supporting Files */,
+			);
+			path = "20160324001-Quartz2D-CopeUIImageView";
+			sourceTree = "<group>";
+		};
+		D58C20D61CA42AA200858C18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D58C20D71CA42AA200858C18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D58C20EF1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D58C20F01CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewTests.m */,
+				D58C20F21CA42AA200858C18 /* Info.plist */,
+			);
+			path = "20160324001-Quartz2D-CopeUIImageViewTests";
+			sourceTree = "<group>";
+		};
+		D58C20FA1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D58C20FB1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m */,
+				D58C20FD1CA42AA200858C18 /* Info.plist */,
+			);
+			path = "20160324001-Quartz2D-CopeUIImageViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58C20D21CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C21001CA42AA200858C18 /* Build configuration list for PBXNativeTarget "20160324001-Quartz2D-CopeUIImageView" */;
+			buildPhases = (
+				D58C20CF1CA42AA200858C18 /* Sources */,
+				D58C20D01CA42AA200858C18 /* Frameworks */,
+				D58C20D11CA42AA200858C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160324001-Quartz2D-CopeUIImageView";
+			productName = "20160324001-Quartz2D-CopeUIImageView";
+			productReference = D58C20D31CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58C20EB1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C21031CA42AA200858C18 /* Build configuration list for PBXNativeTarget "20160324001-Quartz2D-CopeUIImageViewTests" */;
+			buildPhases = (
+				D58C20E81CA42AA200858C18 /* Sources */,
+				D58C20E91CA42AA200858C18 /* Frameworks */,
+				D58C20EA1CA42AA200858C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58C20EE1CA42AA200858C18 /* PBXTargetDependency */,
+			);
+			name = "20160324001-Quartz2D-CopeUIImageViewTests";
+			productName = "20160324001-Quartz2D-CopeUIImageViewTests";
+			productReference = D58C20EC1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D58C20F61CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58C21061CA42AA200858C18 /* Build configuration list for PBXNativeTarget "20160324001-Quartz2D-CopeUIImageViewUITests" */;
+			buildPhases = (
+				D58C20F31CA42AA200858C18 /* Sources */,
+				D58C20F41CA42AA200858C18 /* Frameworks */,
+				D58C20F51CA42AA200858C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58C20F91CA42AA200858C18 /* PBXTargetDependency */,
+			);
+			name = "20160324001-Quartz2D-CopeUIImageViewUITests";
+			productName = "20160324001-Quartz2D-CopeUIImageViewUITests";
+			productReference = D58C20F71CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D58C20CB1CA42AA200858C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D58C20D21CA42AA200858C18 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D58C20EB1CA42AA200858C18 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D58C20D21CA42AA200858C18;
+					};
+					D58C20F61CA42AA200858C18 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D58C20D21CA42AA200858C18;
+					};
+				};
+			};
+			buildConfigurationList = D58C20CE1CA42AA200858C18 /* Build configuration list for PBXProject "20160324001-Quartz2D-CopeUIImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D58C20CA1CA42AA200858C18;
+			productRefGroup = D58C20D41CA42AA200858C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58C20D21CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView */,
+				D58C20EB1CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewTests */,
+				D58C20F61CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58C20D11CA42AA200858C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C20E61CA42AA200858C18 /* LaunchScreen.storyboard in Resources */,
+				D58C20E31CA42AA200858C18 /* Assets.xcassets in Resources */,
+				D58C20E11CA42AA200858C18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C20EA1CA42AA200858C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C20F51CA42AA200858C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D58C20CF1CA42AA200858C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C20DE1CA42AA200858C18 /* ViewController.m in Sources */,
+				D58C20DB1CA42AA200858C18 /* AppDelegate.m in Sources */,
+				D58C20D81CA42AA200858C18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C20E81CA42AA200858C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C20F11CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58C20F31CA42AA200858C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58C20FC1CA42AA200858C18 /* _0160324001_Quartz2D_CopeUIImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D58C20EE1CA42AA200858C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58C20D21CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView */;
+			targetProxy = D58C20ED1CA42AA200858C18 /* PBXContainerItemProxy */;
+		};
+		D58C20F91CA42AA200858C18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58C20D21CA42AA200858C18 /* 20160324001-Quartz2D-CopeUIImageView */;
+			targetProxy = D58C20F81CA42AA200858C18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D58C20DF1CA42AA200858C18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58C20E01CA42AA200858C18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58C20E41CA42AA200858C18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58C20E51CA42AA200858C18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D58C20FE1CA42AA200858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D58C20FF1CA42AA200858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58C21011CA42AA200858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160324001-Quartz2D-CopeUIImageView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160324001-Quartz2D-CopeUIImageView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D58C21021CA42AA200858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160324001-Quartz2D-CopeUIImageView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160324001-Quartz2D-CopeUIImageView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D58C21041CA42AA200858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160324001-Quartz2D-CopeUIImageViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160324001-Quartz2D-CopeUIImageViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160324001-Quartz2D-CopeUIImageView.app/20160324001-Quartz2D-CopeUIImageView";
+			};
+			name = Debug;
+		};
+		D58C21051CA42AA200858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160324001-Quartz2D-CopeUIImageViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160324001-Quartz2D-CopeUIImageViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160324001-Quartz2D-CopeUIImageView.app/20160324001-Quartz2D-CopeUIImageView";
+			};
+			name = Release;
+		};
+		D58C21071CA42AA200858C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160324001-Quartz2D-CopeUIImageViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160324001-Quartz2D-CopeUIImageViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160324001-Quartz2D-CopeUIImageView";
+			};
+			name = Debug;
+		};
+		D58C21081CA42AA200858C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160324001-Quartz2D-CopeUIImageViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160324001-Quartz2D-CopeUIImageViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160324001-Quartz2D-CopeUIImageView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D58C20CE1CA42AA200858C18 /* Build configuration list for PBXProject "20160324001-Quartz2D-CopeUIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C20FE1CA42AA200858C18 /* Debug */,
+				D58C20FF1CA42AA200858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58C21001CA42AA200858C18 /* Build configuration list for PBXNativeTarget "20160324001-Quartz2D-CopeUIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C21011CA42AA200858C18 /* Debug */,
+				D58C21021CA42AA200858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D58C21031CA42AA200858C18 /* Build configuration list for PBXNativeTarget "20160324001-Quartz2D-CopeUIImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C21041CA42AA200858C18 /* Debug */,
+				D58C21051CA42AA200858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D58C21061CA42AA200858C18 /* Build configuration list for PBXNativeTarget "20160324001-Quartz2D-CopeUIImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C21071CA42AA200858C18 /* Debug */,
+				D58C21081CA42AA200858C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D58C20CB1CA42AA200858C18 /* Project object */;
+}
